@@ -1,0 +1,828 @@
+21:16:45 **** Build of project qxy_bsp ****
+make -k all 
+"Running Make include in microblaze_0/libsrc/axidma_v9_7/src"
+make -C microblaze_0/libsrc/axidma_v9_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/axiethernet_v5_7/src"
+make -C microblaze_0/libsrc/axiethernet_v5_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/cpu_v2_7/src"
+make -C microblaze_0/libsrc/cpu_v2_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/intc_v3_7/src"
+make -C microblaze_0/libsrc/intc_v3_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/lwip202_v1_1/src"
+make -C microblaze_0/libsrc/lwip202_v1_1/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/standalone_v6_7/src"
+make -C microblaze_0/libsrc/standalone_v6_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/tmrctr_v4_4/src"
+make -C microblaze_0/libsrc/tmrctr_v4_4/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make libs in microblaze_0/libsrc/axidma_v9_7/src"
+make -C microblaze_0/libsrc/axidma_v9_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling axidma"
+mb-ar: creating ../../../lib/libxil.a
+"Running Make libs in microblaze_0/libsrc/axiethernet_v5_7/src"
+make -C microblaze_0/libsrc/axiethernet_v5_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling axiethernet"
+"Running Make libs in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling bram"
+"Running Make libs in microblaze_0/libsrc/cpu_v2_7/src"
+make -C microblaze_0/libsrc/cpu_v2_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling cpu"
+"Running Make libs in microblaze_0/libsrc/intc_v3_7/src"
+make -C microblaze_0/libsrc/intc_v3_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling intc"
+"Running Make libs in microblaze_0/libsrc/lwip202_v1_1/src"
+make -C microblaze_0/libsrc/lwip202_v1_1/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling lwip src and adapter files"
+contrib/ports/xilinx/netif/xaxiemacif_hw.c: In function 'init_axiemac':
+contrib/ports/xilinx/netif/xaxiemacif_hw.c:56:11: warning: unused variable 'mac_address' [-Wunused-variable]
+  unsigned mac_address = (unsigned)(UINTPTR)(netif->state);
+           ^~~~~~~~~~~
+contrib/ports/xilinx/netif/xaxiemacif_physpeed.c: In function 'get_phy_negotiated_speed':
+contrib/ports/xilinx/netif/xaxiemacif_physpeed.c:219:6: warning: unused variable 'temp' [-Wunused-variable]
+  u16 temp;
+      ^~~~
+contrib/ports/xilinx/netif/xaxiemacif_physpeed.c: In function 'get_IEEE_phy_speed':
+contrib/ports/xilinx/netif/xaxiemacif_physpeed.c:617:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+contrib/ports/xilinx/netif/xaxiemacif.c: In function 'xaxiemacif_init':
+contrib/ports/xilinx/netif/xaxiemacif.c:692:16: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+  netif->output = xaxiemacif_output;
+                ^
+In file included from ../../../include/lwip/ip_addr.h:41:0,
+                 from ../../../include/lwip/inet_chksum.h:43,
+                 from contrib/ports/xilinx/netif/xaxiemacif_dma.c:49:
+contrib/ports/xilinx/netif/xaxiemacif_dma.c: In function 'is_checksum_valid':
+contrib/ports/xilinx/netif/xaxiemacif_dma.c:205:6: warning: passing argument 2 of 'inet_chksum_pseudo' makes integer from pointer without a cast [-Wint-conversion]
+      (ip_addr_t *)&ehdr->ip.src, (ip_addr_t *)&ehdr->ip.dest,
+      ^
+../../../include/lwip/def.h:96:29: note: in definition of macro 'htons'
+ #define htons(x) lwip_htons(x)
+                             ^
+In file included from contrib/ports/xilinx/netif/xaxiemacif_dma.c:49:0:
+../../../include/lwip/inet_chksum.h:81:7: note: expected 'u8_t {aka unsigned char}' but argument is of type 'ip_addr_t * {aka struct ip4_addr *}'
+ u16_t inet_chksum_pseudo(struct pbuf *p, u8_t proto, u16_t proto_len,
+       ^~~~~~~~~~~~~~~~~~
+In file included from ../../../include/lwip/ip_addr.h:41:0,
+                 from ../../../include/lwip/inet_chksum.h:43,
+                 from contrib/ports/xilinx/netif/xaxiemacif_dma.c:49:
+contrib/ports/xilinx/netif/xaxiemacif_dma.c:205:34: warning: passing argument 3 of 'inet_chksum_pseudo' makes integer from pointer without a cast [-Wint-conversion]
+      (ip_addr_t *)&ehdr->ip.src, (ip_addr_t *)&ehdr->ip.dest,
+                                  ^
+../../../include/lwip/def.h:96:29: note: in definition of macro 'htons'
+ #define htons(x) lwip_htons(x)
+                             ^
+In file included from contrib/ports/xilinx/netif/xaxiemacif_dma.c:49:0:
+../../../include/lwip/inet_chksum.h:81:7: note: expected 'u16_t {aka short unsigned int}' but argument is of type 'ip_addr_t * {aka struct ip4_addr *}'
+ u16_t inet_chksum_pseudo(struct pbuf *p, u8_t proto, u16_t proto_len,
+       ^~~~~~~~~~~~~~~~~~
+In file included from ../../../include/lwip/ip_addr.h:41:0,
+                 from ../../../include/lwip/inet_chksum.h:43,
+                 from contrib/ports/xilinx/netif/xaxiemacif_dma.c:49:
+contrib/ports/xilinx/netif/xaxiemacif_dma.c:206:6: warning: passing argument 4 of 'inet_chksum_pseudo' makes pointer from integer without a cast [-Wint-conversion]
+      proto, tcp_payload_len));
+      ^
+../../../include/lwip/def.h:96:29: note: in definition of macro 'htons'
+ #define htons(x) lwip_htons(x)
+                             ^
+In file included from contrib/ports/xilinx/netif/xaxiemacif_dma.c:49:0:
+../../../include/lwip/inet_chksum.h:81:7: note: expected 'const ip4_addr_t * {aka const struct ip4_addr *}' but argument is of type 'u8_t {aka unsigned char}'
+ u16_t inet_chksum_pseudo(struct pbuf *p, u8_t proto, u16_t proto_len,
+       ^~~~~~~~~~~~~~~~~~
+In file included from ../../../include/lwip/ip_addr.h:41:0,
+                 from ../../../include/lwip/inet_chksum.h:43,
+                 from contrib/ports/xilinx/netif/xaxiemacif_dma.c:49:
+contrib/ports/xilinx/netif/xaxiemacif_dma.c:206:13: warning: passing argument 5 of 'inet_chksum_pseudo' makes pointer from integer without a cast [-Wint-conversion]
+      proto, tcp_payload_len));
+             ^
+../../../include/lwip/def.h:96:29: note: in definition of macro 'htons'
+ #define htons(x) lwip_htons(x)
+                             ^
+In file included from contrib/ports/xilinx/netif/xaxiemacif_dma.c:49:0:
+../../../include/lwip/inet_chksum.h:81:7: note: expected 'const ip4_addr_t * {aka const struct ip4_addr *}' but argument is of type 'u16_t {aka short unsigned int}'
+ u16_t inet_chksum_pseudo(struct pbuf *p, u8_t proto, u16_t proto_len,
+       ^~~~~~~~~~~~~~~~~~
+"Running Make libs in microblaze_0/libsrc/standalone_v6_7/src"
+make -C microblaze_0/libsrc/standalone_v6_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling standalone";
+microblaze_sleep.c:74:9: note: #pragma message: For the sleep routines, assembly instructions are used
+ #pragma message ("For the sleep routines, assembly instructions are used")
+         ^~~~~~~
+"Running Make libs in microblaze_0/libsrc/tmrctr_v4_4/src"
+make -C microblaze_0/libsrc/tmrctr_v4_4/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling tmrctr"
+"Running Make libs in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling uartlite"
+'Finished building libraries'
+21:17:08 **** Build of configuration Debug for project qxy ****
+make all 
+'Building file: ../src/echo.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/echo.o" -I../../qxy_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/echo.d" -MT"src/echo.o" -o "src/echo.o" "../src/echo.c"
+'Finished building: ../src/echo.c'
+' '
+'Building file: ../src/i2c_access.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/i2c_access.o" -I../../qxy_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/i2c_access.d" -MT"src/i2c_access.o" -o "src/i2c_access.o" "../src/i2c_access.c"
+'Finished building: ../src/i2c_access.c'
+' '
+'Building file: ../src/iic_phyreset.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/iic_phyreset.o" -I../../qxy_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/iic_phyreset.d" -MT"src/iic_phyreset.o" -o "src/iic_phyreset.o" "../src/iic_phyreset.c"
+'Finished building: ../src/iic_phyreset.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../qxy_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../qxy_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building file: ../src/platform_mb.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform_mb.o" -I../../qxy_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform_mb.d" -MT"src/platform_mb.o" -o "src/platform_mb.o" "../src/platform_mb.c"
+'Finished building: ../src/platform_mb.c'
+' '
+'Building file: ../src/platform_ppc.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform_ppc.o" -I../../qxy_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform_ppc.d" -MT"src/platform_ppc.o" -o "src/platform_ppc.o" "../src/platform_ppc.c"
+'Finished building: ../src/platform_ppc.c'
+' '
+'Building file: ../src/platform_zynq.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform_zynq.o" -I../../qxy_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform_zynq.d" -MT"src/platform_zynq.o" -o "src/platform_zynq.o" "../src/platform_zynq.c"
+'Finished building: ../src/platform_zynq.c'
+' '
+'Building file: ../src/platform_zynqmp.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform_zynqmp.o" -I../../qxy_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform_zynqmp.d" -MT"src/platform_zynqmp.o" -o "src/platform_zynqmp.o" "../src/platform_zynqmp.c"
+'Finished building: ../src/platform_zynqmp.c'
+' '
+'Building file: ../src/sfp.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/sfp.o" -I../../qxy_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/sfp.d" -MT"src/sfp.o" -o "src/sfp.o" "../src/sfp.c"
+'Finished building: ../src/sfp.c'
+' '
+'Building file: ../src/si5324.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/si5324.o" -I../../qxy_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/si5324.d" -MT"src/si5324.o" -o "src/si5324.o" "../src/si5324.c"
+'Finished building: ../src/si5324.c'
+' '
+'Building target: qxy.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../qxy_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "qxy.elf"  ./src/echo.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: qxy.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size qxy.elf  |tee "qxy.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 137117	   1584	 749475	 888176	  d8d70	qxy.elf
+'Finished building: qxy.elf.size'
+' '
+21:18:00 **** Auto Build of project qxy_bsp ****
+make -k all 
+"Running Make include in microblaze_0/libsrc/axidma_v9_7/src"
+make -C microblaze_0/libsrc/axidma_v9_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/axiethernet_v5_7/src"
+make -C microblaze_0/libsrc/axiethernet_v5_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/cpu_v2_7/src"
+make -C microblaze_0/libsrc/cpu_v2_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/intc_v3_7/src"
+make -C microblaze_0/libsrc/intc_v3_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/lwip202_v1_1/src"
+make -C microblaze_0/libsrc/lwip202_v1_1/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/standalone_v6_7/src"
+make -C microblaze_0/libsrc/standalone_v6_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/tmrctr_v4_4/src"
+make -C microblaze_0/libsrc/tmrctr_v4_4/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make libs in microblaze_0/libsrc/axidma_v9_7/src"
+make -C microblaze_0/libsrc/axidma_v9_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling axidma"
+mb-ar: creating ../../../lib/libxil.a
+"Running Make libs in microblaze_0/libsrc/axiethernet_v5_7/src"
+make -C microblaze_0/libsrc/axiethernet_v5_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling axiethernet"
+"Running Make libs in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling bram"
+"Running Make libs in microblaze_0/libsrc/cpu_v2_7/src"
+make -C microblaze_0/libsrc/cpu_v2_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling cpu"
+"Running Make libs in microblaze_0/libsrc/intc_v3_7/src"
+make -C microblaze_0/libsrc/intc_v3_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling intc"
+"Running Make libs in microblaze_0/libsrc/lwip202_v1_1/src"
+make -C microblaze_0/libsrc/lwip202_v1_1/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling lwip src and adapter files"
+contrib/ports/xilinx/netif/xaxiemacif_hw.c: In function 'init_axiemac':
+contrib/ports/xilinx/netif/xaxiemacif_hw.c:56:11: warning: unused variable 'mac_address' [-Wunused-variable]
+  unsigned mac_address = (unsigned)(UINTPTR)(netif->state);
+           ^~~~~~~~~~~
+contrib/ports/xilinx/netif/xaxiemacif_physpeed.c: In function 'get_phy_negotiated_speed':
+contrib/ports/xilinx/netif/xaxiemacif_physpeed.c:219:6: warning: unused variable 'temp' [-Wunused-variable]
+  u16 temp;
+      ^~~~
+contrib/ports/xilinx/netif/xaxiemacif_physpeed.c: In function 'get_IEEE_phy_speed':
+contrib/ports/xilinx/netif/xaxiemacif_physpeed.c:617:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+contrib/ports/xilinx/netif/xaxiemacif.c: In function 'xaxiemacif_init':
+contrib/ports/xilinx/netif/xaxiemacif.c:692:16: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+  netif->output = xaxiemacif_output;
+                ^
+In file included from ../../../include/lwip/ip_addr.h:41:0,
+                 from ../../../include/lwip/inet_chksum.h:43,
+                 from contrib/ports/xilinx/netif/xaxiemacif_dma.c:49:
+contrib/ports/xilinx/netif/xaxiemacif_dma.c: In function 'is_checksum_valid':
+contrib/ports/xilinx/netif/xaxiemacif_dma.c:205:6: warning: passing argument 2 of 'inet_chksum_pseudo' makes integer from pointer without a cast [-Wint-conversion]
+      (ip_addr_t *)&ehdr->ip.src, (ip_addr_t *)&ehdr->ip.dest,
+      ^
+../../../include/lwip/def.h:96:29: note: in definition of macro 'htons'
+ #define htons(x) lwip_htons(x)
+                             ^
+In file included from contrib/ports/xilinx/netif/xaxiemacif_dma.c:49:0:
+../../../include/lwip/inet_chksum.h:81:7: note: expected 'u8_t {aka unsigned char}' but argument is of type 'ip_addr_t * {aka struct ip4_addr *}'
+ u16_t inet_chksum_pseudo(struct pbuf *p, u8_t proto, u16_t proto_len,
+       ^~~~~~~~~~~~~~~~~~
+In file included from ../../../include/lwip/ip_addr.h:41:0,
+                 from ../../../include/lwip/inet_chksum.h:43,
+                 from contrib/ports/xilinx/netif/xaxiemacif_dma.c:49:
+contrib/ports/xilinx/netif/xaxiemacif_dma.c:205:34: warning: passing argument 3 of 'inet_chksum_pseudo' makes integer from pointer without a cast [-Wint-conversion]
+      (ip_addr_t *)&ehdr->ip.src, (ip_addr_t *)&ehdr->ip.dest,
+                                  ^
+../../../include/lwip/def.h:96:29: note: in definition of macro 'htons'
+ #define htons(x) lwip_htons(x)
+                             ^
+In file included from contrib/ports/xilinx/netif/xaxiemacif_dma.c:49:0:
+../../../include/lwip/inet_chksum.h:81:7: note: expected 'u16_t {aka short unsigned int}' but argument is of type 'ip_addr_t * {aka struct ip4_addr *}'
+ u16_t inet_chksum_pseudo(struct pbuf *p, u8_t proto, u16_t proto_len,
+       ^~~~~~~~~~~~~~~~~~
+In file included from ../../../include/lwip/ip_addr.h:41:0,
+                 from ../../../include/lwip/inet_chksum.h:43,
+                 from contrib/ports/xilinx/netif/xaxiemacif_dma.c:49:
+contrib/ports/xilinx/netif/xaxiemacif_dma.c:206:6: warning: passing argument 4 of 'inet_chksum_pseudo' makes pointer from integer without a cast [-Wint-conversion]
+      proto, tcp_payload_len));
+      ^
+../../../include/lwip/def.h:96:29: note: in definition of macro 'htons'
+ #define htons(x) lwip_htons(x)
+                             ^
+In file included from contrib/ports/xilinx/netif/xaxiemacif_dma.c:49:0:
+../../../include/lwip/inet_chksum.h:81:7: note: expected 'const ip4_addr_t * {aka const struct ip4_addr *}' but argument is of type 'u8_t {aka unsigned char}'
+ u16_t inet_chksum_pseudo(struct pbuf *p, u8_t proto, u16_t proto_len,
+       ^~~~~~~~~~~~~~~~~~
+In file included from ../../../include/lwip/ip_addr.h:41:0,
+                 from ../../../include/lwip/inet_chksum.h:43,
+                 from contrib/ports/xilinx/netif/xaxiemacif_dma.c:49:
+contrib/ports/xilinx/netif/xaxiemacif_dma.c:206:13: warning: passing argument 5 of 'inet_chksum_pseudo' makes pointer from integer without a cast [-Wint-conversion]
+      proto, tcp_payload_len));
+             ^
+../../../include/lwip/def.h:96:29: note: in definition of macro 'htons'
+ #define htons(x) lwip_htons(x)
+                             ^
+In file included from contrib/ports/xilinx/netif/xaxiemacif_dma.c:49:0:
+../../../include/lwip/inet_chksum.h:81:7: note: expected 'const ip4_addr_t * {aka const struct ip4_addr *}' but argument is of type 'u16_t {aka short unsigned int}'
+ u16_t inet_chksum_pseudo(struct pbuf *p, u8_t proto, u16_t proto_len,
+       ^~~~~~~~~~~~~~~~~~
+"Running Make libs in microblaze_0/libsrc/standalone_v6_7/src"
+make -C microblaze_0/libsrc/standalone_v6_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling standalone";
+microblaze_sleep.c:74:9: note: #pragma message: For the sleep routines, assembly instructions are used
+ #pragma message ("For the sleep routines, assembly instructions are used")
+         ^~~~~~~
+"Running Make libs in microblaze_0/libsrc/tmrctr_v4_4/src"
+make -C microblaze_0/libsrc/tmrctr_v4_4/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling tmrctr"
+"Running Make libs in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling uartlite"
+'Finished building libraries'
+21:18:23 **** Auto Build of configuration Debug for project qxy ****
+make all 
+'Building file: ../src/echo.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/echo.o" -I../../qxy_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/echo.d" -MT"src/echo.o" -o "src/echo.o" "../src/echo.c"
+'Finished building: ../src/echo.c'
+' '
+'Building file: ../src/i2c_access.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/i2c_access.o" -I../../qxy_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/i2c_access.d" -MT"src/i2c_access.o" -o "src/i2c_access.o" "../src/i2c_access.c"
+'Finished building: ../src/i2c_access.c'
+' '
+'Building file: ../src/iic_phyreset.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/iic_phyreset.o" -I../../qxy_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/iic_phyreset.d" -MT"src/iic_phyreset.o" -o "src/iic_phyreset.o" "../src/iic_phyreset.c"
+'Finished building: ../src/iic_phyreset.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../qxy_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../qxy_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building file: ../src/platform_mb.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform_mb.o" -I../../qxy_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform_mb.d" -MT"src/platform_mb.o" -o "src/platform_mb.o" "../src/platform_mb.c"
+'Finished building: ../src/platform_mb.c'
+' '
+'Building file: ../src/sfp.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/sfp.o" -I../../qxy_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/sfp.d" -MT"src/sfp.o" -o "src/sfp.o" "../src/sfp.c"
+'Finished building: ../src/sfp.c'
+' '
+'Building file: ../src/si5324.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/si5324.o" -I../../qxy_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/si5324.d" -MT"src/si5324.o" -o "src/si5324.o" "../src/si5324.c"
+'Finished building: ../src/si5324.c'
+' '
+'Building target: qxy.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../qxy_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "qxy.elf"  ./src/echo.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: qxy.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size qxy.elf  |tee "qxy.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 134072	   1584	 749472	 885128	  d8188	qxy.elf
+'Finished building: qxy.elf.size'
+' '
+21:22:57 **** Auto Build of project qxy_bsp ****
+make -k all 
+"Running Make include in microblaze_0/libsrc/axidma_v9_7/src"
+make -C microblaze_0/libsrc/axidma_v9_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/axiethernet_v5_7/src"
+make -C microblaze_0/libsrc/axiethernet_v5_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/cpu_v2_7/src"
+make -C microblaze_0/libsrc/cpu_v2_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/intc_v3_7/src"
+make -C microblaze_0/libsrc/intc_v3_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/lwip202_v1_1/src"
+make -C microblaze_0/libsrc/lwip202_v1_1/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/standalone_v6_7/src"
+make -C microblaze_0/libsrc/standalone_v6_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/tmrctr_v4_4/src"
+make -C microblaze_0/libsrc/tmrctr_v4_4/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make libs in microblaze_0/libsrc/axidma_v9_7/src"
+make -C microblaze_0/libsrc/axidma_v9_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling axidma"
+"Running Make libs in microblaze_0/libsrc/axiethernet_v5_7/src"
+make -C microblaze_0/libsrc/axiethernet_v5_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling axiethernet"
+"Running Make libs in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling bram"
+"Running Make libs in microblaze_0/libsrc/cpu_v2_7/src"
+make -C microblaze_0/libsrc/cpu_v2_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling cpu"
+"Running Make libs in microblaze_0/libsrc/intc_v3_7/src"
+make -C microblaze_0/libsrc/intc_v3_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling intc"
+"Running Make libs in microblaze_0/libsrc/lwip202_v1_1/src"
+make -C microblaze_0/libsrc/lwip202_v1_1/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling lwip src and adapter files"
+"Running Make libs in microblaze_0/libsrc/standalone_v6_7/src"
+make -C microblaze_0/libsrc/standalone_v6_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling standalone";
+microblaze_sleep.c:74:9: note: #pragma message: For the sleep routines, assembly instructions are used
+ #pragma message ("For the sleep routines, assembly instructions are used")
+         ^~~~~~~
+"Running Make libs in microblaze_0/libsrc/tmrctr_v4_4/src"
+make -C microblaze_0/libsrc/tmrctr_v4_4/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling tmrctr"
+"Running Make libs in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling uartlite"
+'Finished building libraries'
+21:23:10 **** Auto Build of configuration Debug for project qxy ****
+make all 
+'Building file: ../src/echo.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/echo.o" -I../../qxy_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/echo.d" -MT"src/echo.o" -o "src/echo.o" "../src/echo.c"
+'Finished building: ../src/echo.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../qxy_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../qxy_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building file: ../src/platform_mb.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform_mb.o" -I../../qxy_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform_mb.d" -MT"src/platform_mb.o" -o "src/platform_mb.o" "../src/platform_mb.c"
+'Finished building: ../src/platform_mb.c'
+' '
+'Building target: qxy.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../qxy_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "qxy.elf"  ./src/echo.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: qxy.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size qxy.elf  |tee "qxy.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 134052	   1584	 749476	 885112	  d8178	qxy.elf
+'Finished building: qxy.elf.size'
+' '
+21:23:33 **** Auto Build of project qxy_bsp ****
+make -k all 
+"Running Make include in microblaze_0/libsrc/axidma_v9_7/src"
+make -C microblaze_0/libsrc/axidma_v9_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/axiethernet_v5_7/src"
+make -C microblaze_0/libsrc/axiethernet_v5_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/cpu_v2_7/src"
+make -C microblaze_0/libsrc/cpu_v2_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/intc_v3_7/src"
+make -C microblaze_0/libsrc/intc_v3_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/lwip202_v1_1/src"
+make -C microblaze_0/libsrc/lwip202_v1_1/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/standalone_v6_7/src"
+make -C microblaze_0/libsrc/standalone_v6_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/tmrctr_v4_4/src"
+make -C microblaze_0/libsrc/tmrctr_v4_4/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make libs in microblaze_0/libsrc/axidma_v9_7/src"
+make -C microblaze_0/libsrc/axidma_v9_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling axidma"
+mb-ar: creating ../../../lib/libxil.a
+"Running Make libs in microblaze_0/libsrc/axiethernet_v5_7/src"
+make -C microblaze_0/libsrc/axiethernet_v5_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling axiethernet"
+"Running Make libs in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling bram"
+"Running Make libs in microblaze_0/libsrc/cpu_v2_7/src"
+make -C microblaze_0/libsrc/cpu_v2_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling cpu"
+"Running Make libs in microblaze_0/libsrc/intc_v3_7/src"
+make -C microblaze_0/libsrc/intc_v3_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling intc"
+"Running Make libs in microblaze_0/libsrc/lwip202_v1_1/src"
+make -C microblaze_0/libsrc/lwip202_v1_1/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling lwip src and adapter files"
+contrib/ports/xilinx/netif/xaxiemacif_hw.c: In function 'init_axiemac':
+contrib/ports/xilinx/netif/xaxiemacif_hw.c:56:11: warning: unused variable 'mac_address' [-Wunused-variable]
+  unsigned mac_address = (unsigned)(UINTPTR)(netif->state);
+           ^~~~~~~~~~~
+contrib/ports/xilinx/netif/xaxiemacif_physpeed.c: In function 'get_phy_negotiated_speed':
+contrib/ports/xilinx/netif/xaxiemacif_physpeed.c:219:6: warning: unused variable 'temp' [-Wunused-variable]
+  u16 temp;
+      ^~~~
+contrib/ports/xilinx/netif/xaxiemacif_physpeed.c: In function 'get_IEEE_phy_speed':
+contrib/ports/xilinx/netif/xaxiemacif_physpeed.c:617:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+contrib/ports/xilinx/netif/xaxiemacif.c: In function 'xaxiemacif_init':
+contrib/ports/xilinx/netif/xaxiemacif.c:692:16: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+  netif->output = xaxiemacif_output;
+                ^
+In file included from ../../../include/lwip/ip_addr.h:41:0,
+                 from ../../../include/lwip/inet_chksum.h:43,
+                 from contrib/ports/xilinx/netif/xaxiemacif_dma.c:49:
+contrib/ports/xilinx/netif/xaxiemacif_dma.c: In function 'is_checksum_valid':
+contrib/ports/xilinx/netif/xaxiemacif_dma.c:205:6: warning: passing argument 2 of 'inet_chksum_pseudo' makes integer from pointer without a cast [-Wint-conversion]
+      (ip_addr_t *)&ehdr->ip.src, (ip_addr_t *)&ehdr->ip.dest,
+      ^
+../../../include/lwip/def.h:96:29: note: in definition of macro 'htons'
+ #define htons(x) lwip_htons(x)
+                             ^
+In file included from contrib/ports/xilinx/netif/xaxiemacif_dma.c:49:0:
+../../../include/lwip/inet_chksum.h:81:7: note: expected 'u8_t {aka unsigned char}' but argument is of type 'ip_addr_t * {aka struct ip4_addr *}'
+ u16_t inet_chksum_pseudo(struct pbuf *p, u8_t proto, u16_t proto_len,
+       ^~~~~~~~~~~~~~~~~~
+In file included from ../../../include/lwip/ip_addr.h:41:0,
+                 from ../../../include/lwip/inet_chksum.h:43,
+                 from contrib/ports/xilinx/netif/xaxiemacif_dma.c:49:
+contrib/ports/xilinx/netif/xaxiemacif_dma.c:205:34: warning: passing argument 3 of 'inet_chksum_pseudo' makes integer from pointer without a cast [-Wint-conversion]
+      (ip_addr_t *)&ehdr->ip.src, (ip_addr_t *)&ehdr->ip.dest,
+                                  ^
+../../../include/lwip/def.h:96:29: note: in definition of macro 'htons'
+ #define htons(x) lwip_htons(x)
+                             ^
+In file included from contrib/ports/xilinx/netif/xaxiemacif_dma.c:49:0:
+../../../include/lwip/inet_chksum.h:81:7: note: expected 'u16_t {aka short unsigned int}' but argument is of type 'ip_addr_t * {aka struct ip4_addr *}'
+ u16_t inet_chksum_pseudo(struct pbuf *p, u8_t proto, u16_t proto_len,
+       ^~~~~~~~~~~~~~~~~~
+In file included from ../../../include/lwip/ip_addr.h:41:0,
+                 from ../../../include/lwip/inet_chksum.h:43,
+                 from contrib/ports/xilinx/netif/xaxiemacif_dma.c:49:
+contrib/ports/xilinx/netif/xaxiemacif_dma.c:206:6: warning: passing argument 4 of 'inet_chksum_pseudo' makes pointer from integer without a cast [-Wint-conversion]
+      proto, tcp_payload_len));
+      ^
+../../../include/lwip/def.h:96:29: note: in definition of macro 'htons'
+ #define htons(x) lwip_htons(x)
+                             ^
+In file included from contrib/ports/xilinx/netif/xaxiemacif_dma.c:49:0:
+../../../include/lwip/inet_chksum.h:81:7: note: expected 'const ip4_addr_t * {aka const struct ip4_addr *}' but argument is of type 'u8_t {aka unsigned char}'
+ u16_t inet_chksum_pseudo(struct pbuf *p, u8_t proto, u16_t proto_len,
+       ^~~~~~~~~~~~~~~~~~
+In file included from ../../../include/lwip/ip_addr.h:41:0,
+                 from ../../../include/lwip/inet_chksum.h:43,
+                 from contrib/ports/xilinx/netif/xaxiemacif_dma.c:49:
+contrib/ports/xilinx/netif/xaxiemacif_dma.c:206:13: warning: passing argument 5 of 'inet_chksum_pseudo' makes pointer from integer without a cast [-Wint-conversion]
+      proto, tcp_payload_len));
+             ^
+../../../include/lwip/def.h:96:29: note: in definition of macro 'htons'
+ #define htons(x) lwip_htons(x)
+                             ^
+In file included from contrib/ports/xilinx/netif/xaxiemacif_dma.c:49:0:
+../../../include/lwip/inet_chksum.h:81:7: note: expected 'const ip4_addr_t * {aka const struct ip4_addr *}' but argument is of type 'u16_t {aka short unsigned int}'
+ u16_t inet_chksum_pseudo(struct pbuf *p, u8_t proto, u16_t proto_len,
+       ^~~~~~~~~~~~~~~~~~
+"Running Make libs in microblaze_0/libsrc/standalone_v6_7/src"
+make -C microblaze_0/libsrc/standalone_v6_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling standalone";
+microblaze_sleep.c:74:9: note: #pragma message: For the sleep routines, assembly instructions are used
+ #pragma message ("For the sleep routines, assembly instructions are used")
+         ^~~~~~~
+"Running Make libs in microblaze_0/libsrc/tmrctr_v4_4/src"
+make -C microblaze_0/libsrc/tmrctr_v4_4/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling tmrctr"
+"Running Make libs in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling uartlite"
+'Finished building libraries'
+21:23:55 **** Auto Build of configuration Debug for project qxy ****
+make all 
+'Building file: ../src/echo.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/echo.o" -I../../qxy_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/echo.d" -MT"src/echo.o" -o "src/echo.o" "../src/echo.c"
+'Finished building: ../src/echo.c'
+' '
+'Building file: ../src/i2c_access.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/i2c_access.o" -I../../qxy_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/i2c_access.d" -MT"src/i2c_access.o" -o "src/i2c_access.o" "../src/i2c_access.c"
+'Finished building: ../src/i2c_access.c'
+' '
+'Building file: ../src/iic_phyreset.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/iic_phyreset.o" -I../../qxy_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/iic_phyreset.d" -MT"src/iic_phyreset.o" -o "src/iic_phyreset.o" "../src/iic_phyreset.c"
+'Finished building: ../src/iic_phyreset.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../qxy_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../qxy_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building file: ../src/platform_mb.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform_mb.o" -I../../qxy_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform_mb.d" -MT"src/platform_mb.o" -o "src/platform_mb.o" "../src/platform_mb.c"
+'Finished building: ../src/platform_mb.c'
+' '
+'Building file: ../src/sfp.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/sfp.o" -I../../qxy_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/sfp.d" -MT"src/sfp.o" -o "src/sfp.o" "../src/sfp.c"
+'Finished building: ../src/sfp.c'
+' '
+'Building file: ../src/si5324.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/si5324.o" -I../../qxy_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/si5324.d" -MT"src/si5324.o" -o "src/si5324.o" "../src/si5324.c"
+'Finished building: ../src/si5324.c'
+' '
+'Building target: qxy.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../qxy_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "qxy.elf"  ./src/echo.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: qxy.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size qxy.elf  |tee "qxy.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 134072	   1584	 749472	 885128	  d8188	qxy.elf
+'Finished building: qxy.elf.size'
+' '
+21:24:10 **** Auto Build of project qxy_bsp ****
+make -k all 
+"Running Make include in microblaze_0/libsrc/axidma_v9_7/src"
+make -C microblaze_0/libsrc/axidma_v9_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/axiethernet_v5_7/src"
+make -C microblaze_0/libsrc/axiethernet_v5_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/cpu_v2_7/src"
+make -C microblaze_0/libsrc/cpu_v2_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/intc_v3_7/src"
+make -C microblaze_0/libsrc/intc_v3_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/lwip202_v1_1/src"
+make -C microblaze_0/libsrc/lwip202_v1_1/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/standalone_v6_7/src"
+make -C microblaze_0/libsrc/standalone_v6_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/tmrctr_v4_4/src"
+make -C microblaze_0/libsrc/tmrctr_v4_4/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make libs in microblaze_0/libsrc/axidma_v9_7/src"
+make -C microblaze_0/libsrc/axidma_v9_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling axidma"
+"Running Make libs in microblaze_0/libsrc/axiethernet_v5_7/src"
+make -C microblaze_0/libsrc/axiethernet_v5_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling axiethernet"
+"Running Make libs in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling bram"
+"Running Make libs in microblaze_0/libsrc/cpu_v2_7/src"
+make -C microblaze_0/libsrc/cpu_v2_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling cpu"
+"Running Make libs in microblaze_0/libsrc/intc_v3_7/src"
+make -C microblaze_0/libsrc/intc_v3_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling intc"
+"Running Make libs in microblaze_0/libsrc/lwip202_v1_1/src"
+make -C microblaze_0/libsrc/lwip202_v1_1/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling lwip src and adapter files"
+"Running Make libs in microblaze_0/libsrc/standalone_v6_7/src"
+make -C microblaze_0/libsrc/standalone_v6_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling standalone";
+microblaze_sleep.c:74:9: note: #pragma message: For the sleep routines, assembly instructions are used
+ #pragma message ("For the sleep routines, assembly instructions are used")
+         ^~~~~~~
+"Running Make libs in microblaze_0/libsrc/tmrctr_v4_4/src"
+make -C microblaze_0/libsrc/tmrctr_v4_4/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling tmrctr"
+"Running Make libs in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling uartlite"
+'Finished building libraries'
+21:24:25 **** Auto Build of configuration Debug for project qxy ****
+make all 
+'Building file: ../src/echo.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/echo.o" -I../../qxy_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/echo.d" -MT"src/echo.o" -o "src/echo.o" "../src/echo.c"
+'Finished building: ../src/echo.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../qxy_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../qxy_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building file: ../src/platform_mb.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform_mb.o" -I../../qxy_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform_mb.d" -MT"src/platform_mb.o" -o "src/platform_mb.o" "../src/platform_mb.c"
+'Finished building: ../src/platform_mb.c'
+' '
+'Building target: qxy.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../qxy_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "qxy.elf"  ./src/echo.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: qxy.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size qxy.elf  |tee "qxy.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 134052	   1584	 749476	 885112	  d8178	qxy.elf
+'Finished building: qxy.elf.size'
+' '
+15:14:41 **** Build of project qxy_bsp ****
+make -k all 
+"Running Make include in microblaze_0/libsrc/axidma_v9_7/src"
+make -C microblaze_0/libsrc/axidma_v9_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/axiethernet_v5_7/src"
+make -C microblaze_0/libsrc/axiethernet_v5_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/cpu_v2_7/src"
+make -C microblaze_0/libsrc/cpu_v2_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/intc_v3_7/src"
+make -C microblaze_0/libsrc/intc_v3_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/lwip202_v1_1/src"
+make -C microblaze_0/libsrc/lwip202_v1_1/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/standalone_v6_7/src"
+make -C microblaze_0/libsrc/standalone_v6_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/tmrctr_v4_4/src"
+make -C microblaze_0/libsrc/tmrctr_v4_4/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make libs in microblaze_0/libsrc/axidma_v9_7/src"
+make -C microblaze_0/libsrc/axidma_v9_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling axidma"
+"Running Make libs in microblaze_0/libsrc/axiethernet_v5_7/src"
+make -C microblaze_0/libsrc/axiethernet_v5_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling axiethernet"
+"Running Make libs in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling bram"
+"Running Make libs in microblaze_0/libsrc/cpu_v2_7/src"
+make -C microblaze_0/libsrc/cpu_v2_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling cpu"
+"Running Make libs in microblaze_0/libsrc/intc_v3_7/src"
+make -C microblaze_0/libsrc/intc_v3_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling intc"
+"Running Make libs in microblaze_0/libsrc/lwip202_v1_1/src"
+make -C microblaze_0/libsrc/lwip202_v1_1/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling lwip src and adapter files"
+"Running Make libs in microblaze_0/libsrc/standalone_v6_7/src"
+make -C microblaze_0/libsrc/standalone_v6_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling standalone";
+microblaze_sleep.c:74:9: note: #pragma message: For the sleep routines, assembly instructions are used
+ #pragma message ("For the sleep routines, assembly instructions are used")
+         ^~~~~~~
+"Running Make libs in microblaze_0/libsrc/tmrctr_v4_4/src"
+make -C microblaze_0/libsrc/tmrctr_v4_4/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling tmrctr"
+"Running Make libs in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling uartlite"
+'Finished building libraries'
+15:15:12 **** Clean-only build of configuration Debug for project qxy ****
+make clean 
+rm -rf  ./src/echo.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o  ./src/echo.d ./src/i2c_access.d ./src/iic_phyreset.d ./src/main.d ./src/platform.d ./src/platform_mb.d ./src/platform_ppc.d ./src/platform_zynq.d ./src/platform_zynqmp.d ./src/sfp.d ./src/si5324.d  qxy.elf.size  qxy.elf
+' '
+15:15:13 **** Build of configuration Debug for project qxy ****
+make all 
+'Building file: ../src/echo.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/echo.o" -I../../qxy_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/echo.d" -MT"src/echo.o" -o "src/echo.o" "../src/echo.c"
+'Finished building: ../src/echo.c'
+' '
+'Building file: ../src/i2c_access.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/i2c_access.o" -I../../qxy_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/i2c_access.d" -MT"src/i2c_access.o" -o "src/i2c_access.o" "../src/i2c_access.c"
+'Finished building: ../src/i2c_access.c'
+' '
+'Building file: ../src/iic_phyreset.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/iic_phyreset.o" -I../../qxy_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/iic_phyreset.d" -MT"src/iic_phyreset.o" -o "src/iic_phyreset.o" "../src/iic_phyreset.c"
+'Finished building: ../src/iic_phyreset.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../qxy_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../qxy_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building file: ../src/platform_mb.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform_mb.o" -I../../qxy_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform_mb.d" -MT"src/platform_mb.o" -o "src/platform_mb.o" "../src/platform_mb.c"
+'Finished building: ../src/platform_mb.c'
+' '
+'Building file: ../src/platform_ppc.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform_ppc.o" -I../../qxy_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform_ppc.d" -MT"src/platform_ppc.o" -o "src/platform_ppc.o" "../src/platform_ppc.c"
+'Finished building: ../src/platform_ppc.c'
+' '
+'Building file: ../src/platform_zynq.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform_zynq.o" -I../../qxy_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform_zynq.d" -MT"src/platform_zynq.o" -o "src/platform_zynq.o" "../src/platform_zynq.c"
+'Finished building: ../src/platform_zynq.c'
+' '
+'Building file: ../src/platform_zynqmp.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform_zynqmp.o" -I../../qxy_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform_zynqmp.d" -MT"src/platform_zynqmp.o" -o "src/platform_zynqmp.o" "../src/platform_zynqmp.c"
+'Finished building: ../src/platform_zynqmp.c'
+' '
+'Building file: ../src/sfp.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/sfp.o" -I../../qxy_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/sfp.d" -MT"src/sfp.o" -o "src/sfp.o" "../src/sfp.c"
+'Finished building: ../src/sfp.c'
+' '
+'Building file: ../src/si5324.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/si5324.o" -I../../qxy_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/si5324.d" -MT"src/si5324.o" -o "src/si5324.o" "../src/si5324.c"
+'Finished building: ../src/si5324.c'
+' '
+'Building target: qxy.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../qxy_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "qxy.elf"  ./src/echo.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: qxy.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size qxy.elf  |tee "qxy.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 134052	   1584	 749476	 885112	  d8178	qxy.elf
+'Finished building: qxy.elf.size'
+' '
